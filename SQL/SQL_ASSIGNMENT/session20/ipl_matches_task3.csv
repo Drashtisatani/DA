@@ -1,0 +1,6 @@
+match_id,team1,team2,winner,venue,match_date
+1,"Mumbai Indians",CSK,"Mumbai Indians",Wankhede,2023-04-05
+2,RCB,KKR,KKR,Chinnaswamy,2023-04-06
+3,"Mumbai Indians",RCB,"Mumbai Indians",Wankhede,2023-04-10
+4,CSK,KKR,CSK,Chepauk,2023-04-12
+5,"Mumbai Indians",KKR,KKR,"Eden Gardens",2023-04-15

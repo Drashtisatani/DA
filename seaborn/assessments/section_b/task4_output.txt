@@ -1,0 +1,23 @@
+Nulls introduced -> delivery_time_mins: 10, rating: 10
+Nulls after fill -> delivery_time_mins: 0, rating: 0
+
+Speed band counts (should be ~equal-frequency):
+speed_band
+Slow      67
+Fast      67
+Normal    66
+Name: count, dtype: int64
+
+DataFrame preview after cleaning + enrichment:
+ order_value  distance_km  delivery_time_mins  rating  discount_pct  delivery_speed_kmph speed_band
+      153.42        15.29               29.44    1.61         17.08                31.16       Fast
+      645.94         2.17               41.14    1.25          4.26                 3.17       Slow
+      406.89        15.15               20.00    3.03         18.35                45.45       Fast
+      606.43        18.98               18.02    3.03         29.23                63.20       Fast
+      784.59        12.47               24.77    3.17          8.20                30.20       Fast
+      476.95         6.46               20.43    4.28         14.42                18.99     Normal
+      450.78        13.78               40.77    4.52          3.53                20.27     Normal
+      150.44        14.53               32.48    1.47         15.54                26.84     Normal
+
+Saved chart: correlation_heatmap.png (DPI 150)
+Saved chart: pairplot.png (DPI 150)

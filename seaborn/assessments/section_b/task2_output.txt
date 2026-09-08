@@ -1,0 +1,25 @@
+Full source dataset (first 10 rows):
+restaurant_name      city  order_value  delivery_time_mins  rating cuisine_type
+    Pizza Point     Delhi       420.95                27.9     4.4 North Indian
+    Sweet Tooth Bengaluru       578.26                28.6     3.4 North Indian
+    Spice Villa    Mumbai       628.38                14.9     5.0    Fast Food
+    Curry House    Mumbai       244.74                42.9     3.6      Chinese
+    Pizza Point     Delhi       667.65                39.2     3.6      Chinese
+    Spice Villa Bengaluru       635.81                26.1     5.0      Chinese
+    Spice Villa Bengaluru       415.45                38.2     3.4 North Indian
+    Curry House     Delhi       722.42                22.1     3.6 North Indian
+    Sweet Tooth    Mumbai       417.40                20.0     4.0 North Indian
+    Sweet Tooth Bengaluru       714.59                45.4     3.7    Fast Food
+
+Grouped summary (all restaurants):
+                 mean_order_value  mean_delivery_time  mean_rating
+restaurant_name                                                   
+Curry House                500.09               28.74         3.55
+Noodle Bar                 496.56               30.97         3.95
+Pizza Point                383.12               31.06         3.88
+Spice Villa                520.47               30.36         4.20
+Sweet Tooth                474.89               27.61         3.86
+
+Filtered & ranked result (mean_rating > 4.0 AND mean_delivery_time < 35 min):
+restaurant_name  mean_order_value  mean_delivery_time  mean_rating
+    Spice Villa            520.47               30.36          4.2

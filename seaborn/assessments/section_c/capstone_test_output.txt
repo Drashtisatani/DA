@@ -1,0 +1,74 @@
+[startup] Found 24 null value(s) in numeric columns ({'order_value': np.int64(8), 'delivery_time_mins': np.int64(8), 'rating': np.int64(8)}) - filling with column medians.
+
+Food Delivery Analytics Console
+  1. Summary Statistics
+  2. Distribution Analysis
+  3. Correlation Heatmap
+  4. Restaurant Performance Report
+  5. Exit
+Choose an option (1-5): 1
+
+--- Summary Statistics (NumPy) ---
+order_value: min=152.30  max=896.87  mean=523.13  median=505.76  std=209.56
+delivery_time_mins: min=11.36  max=49.37  mean=30.65  median=30.60  std=7.62
+rating: min=2.08  max=5.00  mean=3.94  median=3.95  std=0.68
+
+Food Delivery Analytics Console
+  1. Summary Statistics
+  2. Distribution Analysis
+  3. Correlation Heatmap
+  4. Restaurant Performance Report
+  5. Exit
+Choose an option (1-5): 2
+
+--- Distribution Analysis (Matplotlib) ---
+Saved chart: distribution_analysis.png (DPI 150)
+
+Food Delivery Analytics Console
+  1. Summary Statistics
+  2. Distribution Analysis
+  3. Correlation Heatmap
+  4. Restaurant Performance Report
+  5. Exit
+Choose an option (1-5): 3
+
+--- Correlation Heatmap (Seaborn) ---
+Saved chart: capstone_correlation_heatmap.png (DPI 150)
+
+Food Delivery Analytics Console
+  1. Summary Statistics
+  2. Distribution Analysis
+  3. Correlation Heatmap
+  4. Restaurant Performance Report
+  5. Exit
+Choose an option (1-5): 4
+
+--- Restaurant Performance Report (Pandas groupby) ---
+                 mean_order_value  mean_delivery_time  mean_rating  orders
+restaurant_name                                                           
+Sweet Tooth                518.83               31.76         4.04      38
+Noodle Bar                 535.75               31.92         3.98      42
+Pizza Point                518.94               30.21         3.92      47
+Spice Villa                537.92               28.57         3.92      43
+Curry House                507.00               30.95         3.87      50
+
+Food Delivery Analytics Console
+  1. Summary Statistics
+  2. Distribution Analysis
+  3. Correlation Heatmap
+  4. Restaurant Performance Report
+  5. Exit
+Choose an option (1-5): 5
+
+Exiting menu...
+
+=================== FINAL SUMMARY REPORT ===================
+Top 3 restaurants by mean rating:
+  Sweet Tooth: 4.04
+  Noodle Bar: 3.98
+  Pizza Point: 3.92
+
+Numeric column pair with highest absolute Pearson correlation: order_value <-> delivery_time_mins (|r| = 0.084)
+
+Overall delivery time: mean = 30.65 min, std = 7.62 min
+==============================================================

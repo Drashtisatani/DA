@@ -1,0 +1,27 @@
+All distances (km):
+[ 6.24 14.31 11.25  9.38  3.18  3.18  1.81 13.13  9.42 10.91  1.29 14.58
+ 12.65  3.97  3.55  3.57  5.26  8.35  7.05  5.08  9.57  2.95  5.09  6.13
+  7.38]
+
+All fees (Rs):
+[51.22 91.55 76.24 66.91 35.92 35.92 29.07 85.63 67.08 74.57 26.44 92.89
+ 83.27 39.86 37.73 37.84 46.3  61.73 55.24 45.39 67.83 34.76 45.45 50.65
+ 56.92]
+
+Orders with delivery fee > Rs 60 (10 orders):
+  distance = 14.31 km  ->  fee = Rs 91.55
+  distance = 11.25 km  ->  fee = Rs 76.24
+  distance = 9.38 km  ->  fee = Rs 66.91
+  distance = 13.13 km  ->  fee = Rs 85.63
+  distance = 9.42 km  ->  fee = Rs 67.08
+  distance = 10.91 km  ->  fee = Rs 74.57
+  distance = 14.58 km  ->  fee = Rs 92.89
+  distance = 12.65 km  ->  fee = Rs 83.27
+  distance = 8.35 km  ->  fee = Rs 61.73
+  distance = 9.57 km  ->  fee = Rs 67.83
+
+Fee array statistics:
+  Minimum : Rs 26.44
+  Maximum : Rs 92.89
+  Mean    : Rs 55.86
+  Std Dev : Rs 19.56

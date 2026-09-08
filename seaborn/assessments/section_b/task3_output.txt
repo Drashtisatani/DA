@@ -1,0 +1,4 @@
+Total orders per month: [2898, 2688, 4321, 2667, 4000, 1968, 3304, 1789, 4069, 3707, 2738, 3923]
+Monthly revenue (Rs): [652389.25, 649013.77, 908677.96, 768527.97, 823900.97, 573409.56, 1089754.39, 457442.75, 1364136.24, 1179465.69, 560732.48, 1223076.92]
+Simulated delivery time mean: 28.03 min (std used to generate: 4)
+Saved chart: food_delivery_dashboard.png (DPI 150)
